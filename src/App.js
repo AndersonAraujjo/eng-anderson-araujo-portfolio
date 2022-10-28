@@ -1,6 +1,6 @@
 import Sobre from "./components/Sobre";
 import Contato from "./components/Contato";
-import Experiência from "./components/Experiência";
+import Ferramentas from "./components/Ferramentas";
 import Início from "./components/Início";
 import NavBar from "./components/NavBar";
 import Portfólio from "./components/Portfólio";
@@ -13,7 +13,7 @@ function App() {
       <Início />
       <Sobre />
       <Portfólio />
-      <Experiência />
+      <Ferramentas />
       <Contato />
       <SocialLinks />
     </div>

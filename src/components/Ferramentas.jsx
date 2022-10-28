@@ -9,9 +9,7 @@ import autocad from "../assets/autocad.png";
 import excel from "../assets/excel.png";
 import project from "../assets/project.png";
 
-\AndersonAraujjo
-
-const Experiência = () => {
+const Ferramentas = () => {
     const techs = [
         {
             id: 1,
@@ -67,7 +65,7 @@ const Experiência = () => {
 
   return (
     <div
-        name="Experiência"
+        name="Ferramentas"
         className="bg-gradient-to-b from-gray-800 to-black w-full
         h-full"
     >
@@ -78,7 +76,7 @@ const Experiência = () => {
             <div className="pt-20">
                 <p className="text-4xl font-bold border-b-4
                 border-gray-500 inline">
-                    Experiência
+                    Ferramentas
                 </p>
                 <p className="py-6">Feramentas que possuo experiência.</p>
             </div>
@@ -100,4 +98,4 @@ const Experiência = () => {
   );
 };
 
-export default Experiência;
+export default Ferramentas;
