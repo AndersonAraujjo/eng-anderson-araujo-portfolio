@@ -56,7 +56,7 @@ const Portfólio = () => {
             Portfólio
           </p>
           <p className="py-6">
-            Acompanhe aqui alguns dos trabalhos no qual participei.
+            Trabalhos no qual participei.
           </p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8
