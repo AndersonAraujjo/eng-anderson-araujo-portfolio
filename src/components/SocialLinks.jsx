@@ -12,7 +12,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: 'https://linkedin.com',
+      href: 'https://www.linkedin.com/in/anderson-ara%C3%BAjo-29582513b/',
       style: 'rounded-tr-md'
     },
     {
