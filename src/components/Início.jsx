@@ -4,16 +4,16 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 
 
-const Inicio = () => {
+const Início = () => {
   return (
     <div
-    name="Inicio"
+    name="Início"
     className="h-screen w-full bg-gradient-to-b from-black
     via-black to-gray-800"
     >
         <div className="max-w-screen-lg mx-auto flex flex-col
         items-center justify-center h-full px-4 md:flex-row ">
-            <div className="flex flex-col justify-center h-full ">
+            <div className="flex flex-col justify-center ">
                 <h2 className="text-4xl sm:text-7xl font-bold
                  text-white ">
                     Engenheiro Civil
@@ -55,4 +55,4 @@ const Inicio = () => {
   );
 };
 
-export default Inicio;
+export default Início;

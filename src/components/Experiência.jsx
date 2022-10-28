@@ -9,7 +9,7 @@ import autocad from "../assets/autocad.png";
 import excel from "../assets/excel.png";
 import project from "../assets/project.png";
 
-
+\AndersonAraujjo
 
 const Experiência = () => {
     const techs = [
@@ -69,15 +69,15 @@ const Experiência = () => {
     <div
         name="Experiência"
         className="bg-gradient-to-b from-gray-800 to-black w-full
-        h-screen"
+        h-full"
     >
         <div className="max-w-screen-lg mx-auto p-4 flex flex-col
         justify-center w-full h-full text-white"
         >
             
-            <div>
+            <div className="pt-20">
                 <p className="text-4xl font-bold border-b-4
-                border-gray-500 p-2 inline">
+                border-gray-500 inline">
                     Experiência
                 </p>
                 <p className="py-6">Feramentas que possuo experiência.</p>

@@ -4,20 +4,20 @@ const Sobre = () => {
   return (
     <div
     name="Sobre"
-    className="w-full h-screen bg-gradient-to-b from-gray-800
+    className="w-full md:h-screen bg-gradient-to-b from-gray-800
     to-black text-white"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col
       justify-center w-full h-full">
 
-        <div className="pb-8 mt-40">
+        <div className="pb-8 mt-20">
           <p className="text-4xl font-bold inline border-b-4 
           border-gray-500">
             Sobre
           </p>
         </div>
 
-        <p className="text-xl mt-10 text-justify">
+        <p className="text-xl text-justify mt-8">
         Minha carreira profissional se inicia em 2018, ano em que concluí minha graduação em Engenharia Civil. Neste ano atuei como estagiário de Engenharia na empresa Empreendimentos Jaraguá onde tive participação na elaboração de projetos de infraestrutura, acompanhamento técnico em obras e atividades administrativas.
         </p>
         <br />
