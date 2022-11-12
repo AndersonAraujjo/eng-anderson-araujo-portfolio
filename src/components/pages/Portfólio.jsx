@@ -1,43 +1,50 @@
 import React from "react";
-import alvenariaTerreo from '../assets/portfolio/alvenariaTerreo.jpg';
-import fotoCapaJazigos from '../assets/portfolio/fotoCapaJazigos.jpg';
-import manutencãoGeral from '../assets/portfolio/manutencãoGeral.jpg';
-import projetoJazigos from '../assets/portfolio/projetoJazigos.jpg';
-import velario from '../assets/portfolio/velario.jpg';
-import projetosResidencias from '../assets/portfolio/projetosResidencias.jpg';
-
+import alvenariaTerreo from '../../assets/portfolio/alvenariaTerreo.jpg';
+import fotoCapaJazigos from '../../assets/portfolio/fotoCapaJazigos.jpg';
+import ObrasManutencao from '../../assets/portfolio/ObrasManutencao.jpg';
+import projetoJazigos from '../../assets/portfolio/projetoJazigos.jpg';
+import velario from '../../assets/portfolio/velario.jpg';
+import projetosResidencias from '../../assets/portfolio/projetosResidencias.jpg';
 
 const Portfólio = () => {
   const portfolios = [
     {
       id: 1,
       title: 'Obras Residenciais',
-      src: alvenariaTerreo
+      src: alvenariaTerreo,
+      link: '/obras-residenciais',
+
     },
     {
       id: 2,
       title: 'Construção de Jazigos',
-      src: fotoCapaJazigos
+      src: fotoCapaJazigos,
+      link: '/construcao-jazigos',
     },
     {
       id: 3,
-      title: 'Manutenções em Geral',
-      src: manutencãoGeral
+      title: 'Obras de Manutenção',
+      src: ObrasManutencao,
+      link: '/manutencao-geral',
     },
     {
       id: 4,
       title: 'Projetos Legais',
-      src: projetoJazigos
+      src: projetoJazigos,
+      link: '/projetos-legais',
+
     },
     {
       id: 5,
       title: 'Projeto Velário',
-      src: velario
+      src: velario,
+      link: '/projeto-velario',
     },
     {
       id: 6,
       title: 'Projetos Residenciais',
-      src: projetosResidencias
+      src: projetosResidencias,
+      link: '/projetos-residenciais',
     },
   ]
 
@@ -56,12 +63,14 @@ const Portfólio = () => {
             Portfólio
           </p>
           <p className="py-6">
-            Trabalhos no qual participei.
+            Alguns dos trabalhos em que participei.
           </p>
         </div>
+        
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8
           px-12 sm:px-0">
-          {portfolios.map(({ id, src, title }) => (
+          {portfolios.map(({ id, src, title, link}) => (
+            <a href={link}>
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img 
                 src={src} 
@@ -70,16 +79,16 @@ const Portfólio = () => {
               />
   
               <div className="flex items-center justify-center font-bold ">
+                
                 <button className="py-3 m-4 duration-200
                 hover:scale-105">
                   {title}
                 </button>
-
               </div>
             </div>
+            </a>
           ))}
         </div>
-
       </div>
     </div>
   )

@@ -1,13 +1,13 @@
 import React from "react";
 
-import html from "../assets/html.png";
-import css from "../assets/css.png";
-import javascript from "../assets/javascript.png";
-import react from "../assets/react.png";
-import revit from "../assets/revit.png";
-import autocad from "../assets/autocad.png";
-import excel from "../assets/excel.png";
-import project from "../assets/project.png";
+import html from "../../assets/html.png";
+import css from "../../assets/css.png";
+import javascript from "../../assets/javascript.png";
+import react from "../../assets/react.png";
+import revit from "../../assets/revit.png";
+import autocad from "../../assets/autocad.png";
+import excel from "../../assets/excel.png";
+import project from "../../assets/project.png";
 
 const Ferramentas = () => {
     const techs = [
