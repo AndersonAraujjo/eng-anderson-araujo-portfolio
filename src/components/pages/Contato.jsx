@@ -1,4 +1,6 @@
 import React from "react";
+import { FaWhatsapp } from "react-icons/fa";
+import { MdOutlineMail } from "react-icons/md";
 
 const Contato = () => {
   return (
@@ -17,7 +19,7 @@ const Contato = () => {
                 </p>
                 <p className="py-6"
                 >
-                    Entre em contato comigo.
+                    Me envie uma mensagem.
                 </p>
             </div>
 
@@ -56,6 +58,31 @@ const Contato = () => {
                         Enviar
                     </button>
                 </form>
+            </div>
+            <div className="pt-20 text-right">
+
+                    <p className="text-sm text-right">
+                    <div className="text-white px-6 py-2 backdrop:mx-auto
+                     rounded-md flex text-right justify-end"
+                    >
+                         <MdOutlineMail 
+                            size={20}
+                            className="mr-1" />
+                        engineer.andersonbatista@gmail.com
+                    </div>
+                    <div className="text-white px-6 py-2 mx-auto
+                     rounded-md flex justify-end"
+                    >
+                        <FaWhatsapp 
+                            size={20}
+                            className="mr-1" />
+                        Celular: ( 11 ) 94089-7739
+                    </div>
+                            
+
+                    </p>
+       
+                
             </div>
         </div>
     </div>

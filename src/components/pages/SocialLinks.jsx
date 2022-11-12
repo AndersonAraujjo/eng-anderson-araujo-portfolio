@@ -32,16 +32,16 @@ const SocialLinks = () => {
           Mail <HiOutlineMail size={30} />
         </>
       ),
-      href: 'malito:foo@gmail.com',
+      href: 'mailto:engineer.andersonbatista@gmail.com',
     },
     {
       id: 4,
       child: (
         <>
-          Resume <BsFillPersonLinesFill size={30} />
+          Curriculo <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: '/resume.pdf',
+      href: '/cv.pdf',
       style: 'rounded-br-md',
       dowloald: true,
     },
