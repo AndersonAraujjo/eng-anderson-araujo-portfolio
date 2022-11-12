@@ -8,6 +8,8 @@ import revit from "../../assets/revit.png";
 import autocad from "../../assets/autocad.png";
 import excel from "../../assets/excel.png";
 import project from "../../assets/project.png";
+import tqs from "../../assets/tqs.png";
+import promob from "../../assets/promob.png";
 
 const Ferramentas = () => {
     const techs = [
@@ -25,36 +27,48 @@ const Ferramentas = () => {
         },
         {
             id: 3,
+            src: tqs,
+            title: 'TQS',
+            style: 'shadow-blue-400'
+        },
+        {
+            id: 4,
+            src: promob,
+            title: 'Promob',
+            style: 'shadow-red-500'
+        },
+        {
+            id: 5,
             src: excel,
             title: 'Excel',
             style: 'shadow-green-600'
         },
         {
-            id: 4,
+            id: 6,
             src: project,
             title: 'Project',
             style: 'shadow-green-900'
         },
         {
-            id: 5,
+            id: 7,
             src: html,
             title: 'HTML',
             style: 'shadow-orange-500'
         },
         {
-            id: 6,
+            id: 8,
             src: css,
             title: 'CSS',
             style: 'shadow-blue-500'
         },
         {
-            id: 7,
+            id: 9,
             src: javascript,
             title: 'JavaScript',
             style: 'shadow-yellow-500'
         },
         {
-            id: 8,
+            id: 10,
             src: react,
             title: 'React',
             style: 'shadow-blue-600'
